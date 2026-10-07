@@ -1,0 +1,8 @@
+images:
+  repository: us-central1-docker.pkg.dev/online-boutique-ci/microservices-demo
+  tag: ""
+
+frontend:
+  image:
+    repository: 075810104493.dkr.ecr.ap-southeast-2.amazonaws.com/boutique-frontend
+    tag: manual-1

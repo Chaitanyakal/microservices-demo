@@ -115,6 +115,9 @@ emailService:
       memory: 128Mi
 
 frontend:
+  image:
+    repository: ""
+    tag: ""
   create: true
   name: frontend
   externalService: true
