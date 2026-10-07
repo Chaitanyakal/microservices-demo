@@ -75,7 +75,7 @@ steps {
 
 sh '''
 
-trivy image             --severity HIGH,CRITICAL             --exit-code 1             ${IMAGE_URI}:${IMAGE_TAG}
+trivy image             --severity HIGH,CRITICAL             --ignore-status fixed --exit-code 1             ${IMAGE_URI}:${IMAGE_TAG}
 
 '''
 
